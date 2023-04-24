@@ -37,23 +37,25 @@ const About = () => {
                 Skills
             </p>
             <div>
-                <div>
-                    <p>
-                        Designing
-                    </p>
-                    <p>
-                        Figma | Adobe XD | Adobe Photoshop
-                    </p>
-                    <p>
-                        Developing
-                    </p>
-                    <p>
-                        GIT | HTML | CSS | C | C# 
-                    </p>
+                <div className="border border-solid border-[#AA946B]">
+                    <div className="opacity-75 py-[20px] px-[25px]">
+                        <p className="text-lg md:text-xl font-bold">
+                            Designing
+                        </p>
+                        <p className="mt-2 mb-6 font-[100]">
+                            Figma | Adobe XD | Adobe Photoshop
+                        </p>
+                        <p className="text-lg md:text-xl font-bold">
+                            Developing
+                        </p>
+                        <p className="mt-2 font-[100]">
+                            GIT | HTML | CSS | C | C# 
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <button>
-                        <a href="#">Contact Me</a>
+                <div className="mt-10">
+                    <button className="text-[#AA946B] w-fit px-6 py-2 flex items-center bg-transparent text-center border border-solid border-[#AA946B]">
+                        <span className="text-lg cursor-pointer hover:scale-105 duration-200">Contact Me</span>
                     </button>
                 </div>
             </div>
