@@ -7,7 +7,7 @@ const About = () => {
         <div className="px-8 mx-auto">
             <div className="text-4xl md:text-6xl">
                 <p>About</p>
-                <div className="block w-[95px] h-[2px] md:h-[3px] mt-[7px] mb-10 bg-[#AA946B]"></div>
+                <div className="block w-[95px] md:w-[155px] h-[2px] md:h-[3px] mt-[7px] mb-10 bg-[#AA946B]"></div>
             </div>
 
             <p className="text-lg md:text-xl font-[100]">
