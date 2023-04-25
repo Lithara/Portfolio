@@ -7,7 +7,7 @@ const About = () => {
         <div className="px-8 mx-auto">
             <div className="text-4xl md:text-6xl">
                 <p>About</p>
-                <div className="block w-[95px] h-[2px] md:h-[3px] mt-[7px] mb-10 bg-[#AA946B]"></div>
+                <div className="block w-[95px] md:w-[155px] h-[2px] md:h-[3px] mt-[7px] mb-10 bg-[#AA946B]"></div>
             </div>
 
             <p className="text-lg md:text-xl font-[100]">
@@ -54,9 +54,13 @@ const About = () => {
                     </div>
                 </div>
                 <div className="mt-10">
-                    <button className="text-[#AA946B] w-fit px-6 py-2 flex items-center bg-transparent text-center border border-solid border-[#AA946B]">
-                        <span className="text-lg cursor-pointer hover:scale-105 duration-200">Contact Me</span>
-                    </button>
+                    <a href="mailto:litharaperera2002@gmail.com" target="_blank" rel="noreferrer">
+                        <button className="text-[#AA946B] w-fit px-6 py-2 flex items-center bg-transparent text-center border border-solid border-[#AA946B]">
+                            <span className="text-lg md:text-xl cursor-pointer hover:scale-105 duration-200">
+                                Contact Me
+                            </span>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
