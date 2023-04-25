@@ -1,13 +1,21 @@
 import React, {useState} from 'react'
-
-import UI01 from "../images/UI01.png";
-import UI02 from "../images/UI02.png";
-import UI03 from "../images/UI03.png";
-import UI04 from "../images/UI04.png";
-
+import Card from './Card';
+import projectData from '../data/projectData';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 const Projects = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoPlay: true,
+      };
 
   return (
     <div>
@@ -23,6 +31,18 @@ const Projects = () => {
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
                     enim ad minim veniam.
                 </p>
+
+            </div>
+            <div>
+                <Slider {...settings} className="max-w-7xl mx-auto">
+                    {projectData.map((item) => (
+                        <Card 
+                        name={item.name}
+                        image={item.image}
+                        url={item.url}
+                        />
+                    ))}
+                </Slider>
             </div>
         </div>
     </div>

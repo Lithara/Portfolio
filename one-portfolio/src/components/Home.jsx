@@ -25,9 +25,13 @@ const Home = () => {
                         who’s looking forward to work with UI/UX. 
                     </p>
                     <div className="pb-10">
-                        <button className="text-[#2D2D2D] w-fit px-6 py-2 flex items-center bg-[#AA946B] text-center">
-                            <span className="text-lg cursor-pointer hover:scale-105 duration-200">Download CV</span>
-                        </button>
+                        <a href="/CVtemplate.pdf" target="_blank" rel="noreferrer" className="flex justify-between items-center w-full text-white">        
+                            <button className="text-[#2D2D2D] w-fit px-6 py-2 flex items-center bg-[#AA946B] text-center">
+                                <span className="text-lg md:text-xl cursor-pointer hover:scale-105 duration-200">
+                                    Download CV
+                                </span>
+                            </button>
+                        </a>
                     </div>
                </div>
 
