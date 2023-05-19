@@ -3,10 +3,10 @@ import ContactImg from "../images/ContactImg.png";
 
 const Contact = () => {
   return (
-    <div name="home" className="h-screen w-full right-0 p-4">
-       <div className="mx-auto flex flex-col px-4 md:flex-row w-4/5 bg-[#2D2D2D] right-0">
+    <div name="home" className="h-screen w-full right-0 p-4 relative">
+       <div className="mx-auto flex flex-col px-4 md:flex-row w-4/5 right-0">
             <div>
-                <img src={ContactImg} alt="my profile" className="mx-auto px-4 md:px-10 pb-10 mt-20"/>
+                <img src={ContactImg} alt="my profile" className="px-4 pb-10 mt-20"/>
             </div>
   
             <div className="text-left px-4 flex flex-col jusitify-center md:py-10 md:mt-20">
