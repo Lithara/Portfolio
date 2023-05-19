@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const SocialLinks = () => {
   return (
-    <div className="flex flex-col top-[25%] left-0 fixed">
+    <div className="invisible md:visible flex flex-col top-[25%] left-0 fixed">
       <ul>
         <li className="flex justify-between items-center w-40 h-14 px-4 bg-[#AA946B] hover:ml-[-10px] duration-300 ml-[-100px]">
           <a href="https://www.linkedin.com/in/lithara-perera/" target="_blank" rel="noreferrer" className="flex justify-between items-center w-full text-white">

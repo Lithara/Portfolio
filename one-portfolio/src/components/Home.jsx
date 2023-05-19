@@ -1,13 +1,14 @@
 import React from 'react'
 import HomeImg from "../images/HomeImg.png";
 
+
 const Home = () => {
   return (
     <>
     <div>
         <div name="home" className="h-screen w-full right-0">
 
-          <div className="mx-auto flex flex-col px-4 md:flex-row w-4/5 bg-[#2D2D2D] right-0">
+          <div className="mx-auto flex flex-col md:flex-row w-4/5 right-0">
                 
                 <div>
                     <img src={HomeImg} alt="my profile" className="mx-auto px-4 md:px-10 pb-10 mt-20"/>
