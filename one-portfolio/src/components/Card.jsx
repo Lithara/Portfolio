@@ -4,7 +4,7 @@ const Card = ({name, image, url}) => {
   return (
     <div className="w-[250px] md:w-[350px] h-[400px] md:h-[550px] mx-auto bg-transparent border border-[#AA946B] text-white flex flex-col justify-evenly items-center my-10">
       <div>
-        <span className="text-lg md:text-2xl font-[100] text-center px-8 justify-center items-center">{name}</span>
+        <span className="text-lg md:text-2xl font-[100] text-center px-4 justify-center items-center">{name}</span>
       </div>
       <div>
         <img src={image} alt=""/>

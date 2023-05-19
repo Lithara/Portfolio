@@ -3,9 +3,9 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <div name="about" className="h-screen w-full right-0">
+    <div name="about" className="h-screen w-full right-0 relative">
         <div className="mx-auto flex flex-col md:flex-row w-4/5 right-0">
-            <div className="px-8 mx-auto">
+            <div className="px-4 mx-auto">
                 <div className="text-4xl md:text-6xl">
                     <p>About</p>
                     <div className="block w-[95px] md:w-[155px] h-[2px] md:h-[3px] mt-[7px] mb-10 bg-[#AA946B]"></div>
