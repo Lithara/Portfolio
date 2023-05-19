@@ -9,11 +9,13 @@ function App() {
   return (
     <>
       <NavBar/>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <SocialLinks/> 
+      <div className="right-0 w-4/5 bg-[#2D2D2D] absolute text-white">
+        <Home/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        <SocialLinks/> 
+      </div>
     </>
   );
 }
