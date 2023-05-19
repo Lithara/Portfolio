@@ -29,10 +29,8 @@ const NavBar = () => {
   return (
     <div className="flex justify-between w-full h-20 px-4 text-white bg-transparent fixed">
         
-        <div>
-            <a href="#">
-                <img src={LPlogo} width="30"/>
-            </a>
+        <div className="md:pl-[100px]">
+            
         </div>
         <div className="items-center mt-5">
 

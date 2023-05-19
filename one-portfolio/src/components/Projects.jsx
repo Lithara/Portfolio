@@ -18,8 +18,8 @@ const Projects = () => {
       };
 
   return (
-    <div>
-        <div name="about" className="w-4/5 bg-[#2D2D2D] absolute right-0 text-white my-[1100px] py-20">
+    <div name="project" className="h-screen w-full right-0">
+        <div className="mx-auto flex flex-col w-4/5 right-0">
             <div className="px-8 mx-auto mb-5">
                 <div className="text-4xl md:text-6xl">
                     <p>Projects</p>
