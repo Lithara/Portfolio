@@ -34,7 +34,7 @@ const NavBar = () => {
         </div>
         <div className="items-center mt-5">
 
-            <ul className="hidden md:flex">
+            <ul className="md:flex">
                 {links.map(({id, link}) => (
                     <li key={id} className="px-10 cursor-pointer capitalize font-regular hover:scale-105 duration-200">
                         {link}
@@ -44,17 +44,19 @@ const NavBar = () => {
 
             <div onclick={() => setNav(!nav)} className="cursor-pointer z-10 md:hidden">
             {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
-            </div>
-
+            
             {nav && (
                 <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-4/5 h-screen bg-[#2D2D2D]">
                     {links.map(({id, link}) => (
                         <li key={id} className="px-4 cursor-pointer capitalize py-6 text-3xl font-light">
-                            {link}
+                            <a href="#" className="inline-block">
+                                {link}
+                            </a>
                         </li>
                     ))}
                 </ul>
-            )}   
+            )} 
+            </div>  
         </div>
     </div>
   );
